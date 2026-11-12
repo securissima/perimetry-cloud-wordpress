@@ -1,0 +1,8 @@
+/.github export-ignore
+/.wordpress-org export-ignore
+/tests export-ignore
+/tools export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
+*.mo binary
+*.png binary

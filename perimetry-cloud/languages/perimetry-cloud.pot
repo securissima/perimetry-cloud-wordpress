@@ -1,0 +1,213 @@
+msgid ""
+msgstr "Project-Id-Version: Perimetry Cloud 1.0.0\nReport-Msgid-Bugs-To: https://perimetry.cloud/contact/\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Domain: perimetry-cloud\n"
+
+msgid "Perimetry Cloud"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "You are not allowed to do this."
+msgstr ""
+
+msgid "This connection did not start here, or took too long. Connect again."
+msgstr ""
+
+msgid "The connection failed. Connect again."
+msgstr ""
+
+msgid "Connected to Perimetry Cloud."
+msgstr ""
+
+msgid "Ownership proved. The first full audit starts within a few minutes."
+msgstr ""
+
+msgid "Sharing is on. The report is sent once a day."
+msgstr ""
+
+msgid "Sharing is off. Nothing more is sent."
+msgstr ""
+
+msgid "Report sent."
+msgstr ""
+
+msgid "Disconnected from Perimetry Cloud."
+msgstr ""
+
+msgid "Critical"
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "%d / 100"
+msgstr ""
+
+msgid "Perimetry Cloud checks your domain from the outside, the way an attacker would see it: e-mail that anyone could send in your name, certificates, exposed services, forgotten subdomains, look-alike domains. Nothing is installed on your server and nothing is attacked."
+msgstr ""
+
+msgid "This site is no longer connected to Perimetry Cloud. Connect it again to see its findings."
+msgstr ""
+
+msgid "Free check"
+msgstr ""
+
+msgid "Checking your domain… This takes about two minutes; the page refreshes by itself."
+msgstr ""
+
+msgid "Result for %s:"
+msgstr ""
+
+msgid "The most serious problems:"
+msgstr ""
+
+msgid "The free check shows the three most serious problems. Connect the site to see all of them, with how to fix each one, and to be told when something changes."
+msgstr ""
+
+msgid "See the score of your domain and its three most serious problems in about two minutes. Pressing the button sends the address of this site to Perimetry Cloud; nothing else is sent."
+msgstr ""
+
+msgid "Check my domain"
+msgstr ""
+
+msgid "Connect to Perimetry Cloud"
+msgstr ""
+
+msgid "Free account: every finding with its fix, a weekly audit, alerts by e-mail, and the proof that the domain is yours in one click from this site."
+msgstr ""
+
+msgid "Connect or create a free account"
+msgstr ""
+
+msgid "Domain %s"
+msgstr ""
+
+msgid "Prove that the domain is yours to start the full audits. This site can prove it in one click: it shows Perimetry Cloud a code at its own address."
+msgstr ""
+
+msgid "Prove ownership with this site"
+msgstr ""
+
+msgid "Or add this TXT record in your DNS: %1$s with the value %2$s."
+msgstr ""
+
+msgid "The first audit is running. Come back in a few minutes."
+msgstr ""
+
+msgid "%s since the previous audit."
+msgstr ""
+
+msgid "No open problem. Well done."
+msgstr ""
+
+msgid "The domain was proved by this site. To let Perimetry Cloud change DNS records for you, add the TXT record shown in Perimetry Cloud."
+msgstr ""
+
+msgid "Open the full report"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Share what WordPress shows"
+msgstr ""
+
+msgid "With your consent, once a day, this site sends Perimetry Cloud: the versions of WordPress and PHP, the plugins and themes with their version and the update waiting, and a few settings (errors shown to visitors, file editing, XML-RPC, registration and its default role, how many administrators there are, never who). Perimetry Cloud then lists the points to fix with your other findings. You can stop at any time."
+msgstr ""
+
+msgid "Send this report to Perimetry Cloud once a day"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Last sent: %s."
+msgstr ""
+
+msgid "Send now"
+msgstr ""
+
+msgid "Disconnect from Perimetry Cloud"
+msgstr ""
+
+msgid "What WordPress itself shows"
+msgstr ""
+
+msgid "WordPress %1$s · PHP %2$s. Read on this site, shown only to you."
+msgstr ""
+
+msgid "Nothing to fix here."
+msgstr ""
+
+msgid "Perimetry Cloud – Security score"
+msgstr ""
+
+msgid "Open: %1$d critical, %2$d high, %3$d medium, %4$d low."
+msgstr ""
+
+msgid "Prove that the domain is yours to start the audits."
+msgstr ""
+
+msgid "How does your domain look from the outside? Free check, no account needed."
+msgstr ""
+
+msgid "%d point to fix in WordPress itself."
+msgid_plural "%d points to fix in WordPress itself."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Open Perimetry Cloud"
+msgstr ""
+
+msgid "Perimetry Cloud could not be reached. Try again in a moment."
+msgstr ""
+
+msgid "Perimetry Cloud answered with an error. Try again later."
+msgstr ""
+
+msgid "Anyone can register, and new accounts become administrators"
+msgstr ""
+
+msgid "A WordPress update is available"
+msgstr ""
+
+msgid "Plugins have updates waiting"
+msgstr ""
+
+msgid "Themes have updates waiting"
+msgstr ""
+
+msgid "PHP no longer receives security fixes"
+msgstr ""
+
+msgid "Errors are shown to visitors (WP_DEBUG_DISPLAY)"
+msgstr ""
+
+msgid "Theme and plugin files can be edited from the admin (DISALLOW_FILE_EDIT)"
+msgstr ""
+
+msgid "XML-RPC is on"
+msgstr ""
+
+msgid "%d administrator account"
+msgid_plural "%d administrator accounts"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%d inactive plugin is still installed"
+msgid_plural "%d inactive plugins are still installed"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Sharing is off."
+msgstr ""
+

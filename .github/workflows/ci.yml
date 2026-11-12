@@ -1,0 +1,35 @@
+# Syntax of every PHP file on the supported PHP versions, unit tests on the stand-in for WordPress,
+# and translation files in step with the code.
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  php:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['7.4', '8.2', '8.4']
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # 2.40.0
+        with:
+          php-version: ${{ matrix.php }}
+          tools: none
+      - name: Syntax
+        run: find perimetry-cloud tests -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: Unit tests
+        run: php tests/unit.php
+  translations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Translation files are up to date
+        run: node tools/build-l10n.mjs && git diff --exit-code -- perimetry-cloud/languages

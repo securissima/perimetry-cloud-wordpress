@@ -1,0 +1,213 @@
+msgid ""
+msgstr "Project-Id-Version: Perimetry Cloud 1.0.0\nReport-Msgid-Bugs-To: https://perimetry.cloud/contact/\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nLanguage: fr_FR\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Domain: perimetry-cloud\n"
+
+msgid "Perimetry Cloud"
+msgstr "Perimetry Cloud"
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "You are not allowed to do this."
+msgstr "Vous n’avez pas le droit de faire cela."
+
+msgid "This connection did not start here, or took too long. Connect again."
+msgstr "Cette connexion n’a pas commencé ici, ou a pris trop de temps. Connectez-vous à nouveau."
+
+msgid "The connection failed. Connect again."
+msgstr "La connexion a échoué. Connectez-vous à nouveau."
+
+msgid "Connected to Perimetry Cloud."
+msgstr "Connecté à Perimetry Cloud."
+
+msgid "Ownership proved. The first full audit starts within a few minutes."
+msgstr "Propriété prouvée. Le premier audit complet démarre dans quelques minutes."
+
+msgid "Sharing is on. The report is sent once a day."
+msgstr "Partage activé. Le rapport est envoyé une fois par jour."
+
+msgid "Sharing is off. Nothing more is sent."
+msgstr "Partage désactivé. Plus rien n’est envoyé."
+
+msgid "Report sent."
+msgstr "Rapport envoyé."
+
+msgid "Disconnected from Perimetry Cloud."
+msgstr "Déconnecté de Perimetry Cloud."
+
+msgid "Critical"
+msgstr "Critique"
+
+msgid "High"
+msgstr "Élevé"
+
+msgid "Medium"
+msgstr "Moyen"
+
+msgid "Low"
+msgstr "Faible"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "%d / 100"
+msgstr "%d / 100"
+
+msgid "Perimetry Cloud checks your domain from the outside, the way an attacker would see it: e-mail that anyone could send in your name, certificates, exposed services, forgotten subdomains, look-alike domains. Nothing is installed on your server and nothing is attacked."
+msgstr "Perimetry Cloud contrôle votre domaine de l’extérieur, comme un attaquant le verrait : e-mails que n’importe qui pourrait envoyer en votre nom, certificats, services exposés, sous-domaines oubliés, domaines sosies. Rien n’est installé sur votre serveur et rien n’est attaqué."
+
+msgid "This site is no longer connected to Perimetry Cloud. Connect it again to see its findings."
+msgstr "Ce site n’est plus connecté à Perimetry Cloud. Connectez-le à nouveau pour voir ses constats."
+
+msgid "Free check"
+msgstr "Contrôle gratuit"
+
+msgid "Checking your domain… This takes about two minutes; the page refreshes by itself."
+msgstr "Contrôle de votre domaine en cours… Comptez environ deux minutes ; la page se recharge d’elle-même."
+
+msgid "Result for %s:"
+msgstr "Résultat pour %s :"
+
+msgid "The most serious problems:"
+msgstr "Les problèmes les plus graves :"
+
+msgid "The free check shows the three most serious problems. Connect the site to see all of them, with how to fix each one, and to be told when something changes."
+msgstr "Le contrôle gratuit montre les trois problèmes les plus graves. Connectez le site pour les voir tous, avec la façon de corriger chacun, et être prévenu quand quelque chose change."
+
+msgid "See the score of your domain and its three most serious problems in about two minutes. Pressing the button sends the address of this site to Perimetry Cloud; nothing else is sent."
+msgstr "Obtenez la note de votre domaine et ses trois problèmes les plus graves en deux minutes environ. Le bouton envoie l’adresse de ce site à Perimetry Cloud ; rien d’autre n’est envoyé."
+
+msgid "Check my domain"
+msgstr "Contrôler mon domaine"
+
+msgid "Connect to Perimetry Cloud"
+msgstr "Connecter à Perimetry Cloud"
+
+msgid "Free account: every finding with its fix, a weekly audit, alerts by e-mail, and the proof that the domain is yours in one click from this site."
+msgstr "Compte gratuit : chaque constat avec sa correction, un audit chaque semaine, des alertes par e-mail, et la preuve que le domaine est à vous en un clic depuis ce site."
+
+msgid "Connect or create a free account"
+msgstr "Se connecter ou créer un compte gratuit"
+
+msgid "Domain %s"
+msgstr "Domaine %s"
+
+msgid "Prove that the domain is yours to start the full audits. This site can prove it in one click: it shows Perimetry Cloud a code at its own address."
+msgstr "Prouvez que le domaine est à vous pour lancer les audits complets. Ce site peut le prouver en un clic : il montre un code à Perimetry Cloud à sa propre adresse."
+
+msgid "Prove ownership with this site"
+msgstr "Prouver la propriété avec ce site"
+
+msgid "Or add this TXT record in your DNS: %1$s with the value %2$s."
+msgstr "Ou ajoutez cet enregistrement TXT dans votre DNS : %1$s avec la valeur %2$s."
+
+msgid "The first audit is running. Come back in a few minutes."
+msgstr "Le premier audit est en cours. Revenez dans quelques minutes."
+
+msgid "%s since the previous audit."
+msgstr "%s depuis l’audit précédent."
+
+msgid "No open problem. Well done."
+msgstr "Aucun problème ouvert. Bravo."
+
+msgid "The domain was proved by this site. To let Perimetry Cloud change DNS records for you, add the TXT record shown in Perimetry Cloud."
+msgstr "Le domaine a été prouvé par ce site. Pour que Perimetry Cloud puisse modifier vos enregistrements DNS, ajoutez l’enregistrement TXT indiqué dans Perimetry Cloud."
+
+msgid "Open the full report"
+msgstr "Ouvrir le rapport complet"
+
+msgid "Refresh"
+msgstr "Actualiser"
+
+msgid "Share what WordPress shows"
+msgstr "Partager ce que WordPress indique"
+
+msgid "With your consent, once a day, this site sends Perimetry Cloud: the versions of WordPress and PHP, the plugins and themes with their version and the update waiting, and a few settings (errors shown to visitors, file editing, XML-RPC, registration and its default role, how many administrators there are, never who). Perimetry Cloud then lists the points to fix with your other findings. You can stop at any time."
+msgstr "Avec votre accord, une fois par jour, ce site envoie à Perimetry Cloud : les versions de WordPress et de PHP, les extensions et thèmes avec leur version et la mise à jour en attente, et quelques réglages (erreurs affichées aux visiteurs, modification des fichiers, XML-RPC, inscription et son rôle par défaut, nombre d’administrateurs, jamais qui). Perimetry Cloud liste alors les points à corriger avec vos autres constats. Vous pouvez arrêter à tout moment."
+
+msgid "Send this report to Perimetry Cloud once a day"
+msgstr "Envoyer ce rapport à Perimetry Cloud une fois par jour"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Last sent: %s."
+msgstr "Dernier envoi : %s."
+
+msgid "Send now"
+msgstr "Envoyer maintenant"
+
+msgid "Disconnect from Perimetry Cloud"
+msgstr "Se déconnecter de Perimetry Cloud"
+
+msgid "What WordPress itself shows"
+msgstr "Ce que WordPress indique lui-même"
+
+msgid "WordPress %1$s · PHP %2$s. Read on this site, shown only to you."
+msgstr "WordPress %1$s · PHP %2$s. Lu sur ce site, montré à vous seul."
+
+msgid "Nothing to fix here."
+msgstr "Rien à corriger ici."
+
+msgid "Perimetry Cloud – Security score"
+msgstr "Perimetry Cloud – Note de sécurité"
+
+msgid "Open: %1$d critical, %2$d high, %3$d medium, %4$d low."
+msgstr "Ouverts : %1$d critiques, %2$d élevés, %3$d moyens, %4$d faibles."
+
+msgid "Prove that the domain is yours to start the audits."
+msgstr "Prouvez que le domaine est à vous pour lancer les audits."
+
+msgid "How does your domain look from the outside? Free check, no account needed."
+msgstr "À quoi ressemble votre domaine vu de l’extérieur ? Contrôle gratuit, sans compte."
+
+msgid "%d point to fix in WordPress itself."
+msgid_plural "%d points to fix in WordPress itself."
+msgstr[0] "%d point à corriger dans WordPress lui-même."
+msgstr[1] "%d points à corriger dans WordPress lui-même."
+
+msgid "Open Perimetry Cloud"
+msgstr "Ouvrir Perimetry Cloud"
+
+msgid "Perimetry Cloud could not be reached. Try again in a moment."
+msgstr "Perimetry Cloud est injoignable. Réessayez dans un instant."
+
+msgid "Perimetry Cloud answered with an error. Try again later."
+msgstr "Perimetry Cloud a répondu par une erreur. Réessayez plus tard."
+
+msgid "Anyone can register, and new accounts become administrators"
+msgstr "N’importe qui peut s’inscrire, et les nouveaux comptes deviennent administrateurs"
+
+msgid "A WordPress update is available"
+msgstr "Une mise à jour de WordPress est disponible"
+
+msgid "Plugins have updates waiting"
+msgstr "Des extensions ont des mises à jour en attente"
+
+msgid "Themes have updates waiting"
+msgstr "Des thèmes ont des mises à jour en attente"
+
+msgid "PHP no longer receives security fixes"
+msgstr "PHP ne reçoit plus de correctifs de sécurité"
+
+msgid "Errors are shown to visitors (WP_DEBUG_DISPLAY)"
+msgstr "Les erreurs sont affichées aux visiteurs (WP_DEBUG_DISPLAY)"
+
+msgid "Theme and plugin files can be edited from the admin (DISALLOW_FILE_EDIT)"
+msgstr "Les fichiers des thèmes et extensions sont modifiables depuis l’administration (DISALLOW_FILE_EDIT)"
+
+msgid "XML-RPC is on"
+msgstr "XML-RPC est activé"
+
+msgid "%d administrator account"
+msgid_plural "%d administrator accounts"
+msgstr[0] "%d compte administrateur"
+msgstr[1] "%d comptes administrateurs"
+
+msgid "%d inactive plugin is still installed"
+msgid_plural "%d inactive plugins are still installed"
+msgstr[0] "%d extension inactive est encore installée"
+msgstr[1] "%d extensions inactives sont encore installées"
+
+msgid "Sharing is off."
+msgstr "Le partage est désactivé."
+

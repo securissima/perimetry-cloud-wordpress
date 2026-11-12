@@ -1,0 +1,22 @@
+/* Perimetry Cloud plugin: page and dashboard widget. */
+.perimetry-wrap { max-width: 860px; }
+.perimetry-lede { font-size: 14px; max-width: 760px; }
+.perimetry-box { background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 4px 18px 14px; margin: 16px 0; }
+.perimetry-box h2 { font-size: 1.15em; }
+.perimetry-inline { display: inline-block; margin: 0 6px 6px 0; }
+.perimetry-actions { display: flex; flex-wrap: wrap; gap: 6px; align-items: flex-start; margin: 12px 0 4px; }
+.perimetry-actions .perimetry-inline { margin: 0; }
+.perimetry-check { margin-right: 10px; }
+.perimetry-grade { display: flex; align-items: center; gap: 10px; font-size: 15px; }
+.perimetry-letter { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 8px; font-size: 22px; font-weight: 700; color: #fff; background: #1f6f5c; }
+.perimetry-letter.grade-c { background: #b8860b; }
+.perimetry-letter.grade-d { background: #c2410c; }
+.perimetry-letter.grade-e, .perimetry-letter.grade-f { background: #b3261e; }
+.perimetry-findings { margin: 6px 0 10px; }
+.perimetry-findings > li { margin-bottom: 6px; }
+.perimetry-findings summary { cursor: pointer; }
+.perimetry-details { margin: 4px 0 0 18px; list-style: disc; color: #50575e; }
+.perimetry-sev { display: inline-block; min-width: 64px; padding: 0 6px; border-radius: 10px; font-size: 11px; font-weight: 600; text-align: center; background: #f0f0f1; }
+.perimetry-sev.sev-critical { background: #b3261e; color: #fff; }
+.perimetry-sev.sev-high { background: #f5c2a8; }
+.perimetry-sev.sev-medium { background: #fbe7a1; }
