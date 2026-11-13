@@ -1,6 +1,7 @@
 # Perimetry Cloud – Security Score for WordPress
 
 [![ci](https://github.com/securissima/perimetry-cloud-wordpress/actions/workflows/ci.yml/badge.svg)](https://github.com/securissima/perimetry-cloud-wordpress/actions/workflows/ci.yml)
+[![security](https://github.com/securissima/perimetry-cloud-wordpress/actions/workflows/security.yml/badge.svg)](https://github.com/securissima/perimetry-cloud-wordpress/actions/workflows/security.yml)
 ![License: GPL-2.0-or-later](https://img.shields.io/badge/license-GPL--2.0--or--later-blue)
 ![WordPress 6.5+](https://img.shields.io/badge/WordPress-6.5%2B-21759b)
 ![PHP 7.4+](https://img.shields.io/badge/PHP-7.4%2B-777bb4)

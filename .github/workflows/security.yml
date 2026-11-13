@@ -1,0 +1,54 @@
+# Security checks of the code: secrets (gitleaks, the tree and every commit of a pull request) and static analysis
+# (Semgrep, PHP and secrets rules, informative). The plugin has no third-party dependency, so there is nothing for
+# a dependency audit to read. Never touches a live site.
+name: security
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '41 4 * * 1' # Monday 04:41 UTC: a full weekly pass
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: security-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  scan:
+    name: gitleaks + semgrep
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: ${{ github.event_name == 'pull_request' && '0' || '1' }}
+      - name: gitleaks
+        env:
+          IS_PR: ${{ github.event_name == 'pull_request' }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -uo pipefail
+          img=ghcr.io/gitleaks/gitleaks:v8.28.0@sha256:cdbb7c955abce02001a9f6c9f602fb195b7fadc1e812065883f695d1eeaba854
+          run() { docker run --rm --network none --user "$(id -u):$(id -g)" -v "$PWD":/src:ro "$img" "$@"; }
+          rc=0
+          run dir --redact --verbose /src || rc=$?
+          if [ "$IS_PR" = true ]; then
+            [[ "$BASE_SHA" =~ ^[0-9a-f]{40}$ && "$HEAD_SHA" =~ ^[0-9a-f]{40}$ ]] || { echo "::error::unreadable pull request SHAs"; exit 1; }
+            run git --redact --verbose --log-opts="$BASE_SHA..$HEAD_SHA" /src || rc=$?
+          fi
+          exit "$rc"
+      - name: Semgrep
+        if: ${{ !cancelled() }}
+        run: |
+          rc=0
+          docker run --rm -v "$PWD":/src:ro -w /src \
+            semgrep/semgrep:1.184.0@sha256:cc1b68266f267878b39739373ea9985b9a78e5d64497dd875c8de100b22695ed \
+            semgrep scan --error --metrics=off --config p/default --config p/php --config p/secrets --config p/javascript || rc=$?
+          case "$rc" in
+            0) ;;
+            1) echo "::warning title=Semgrep::findings (informative): see the log" ;;
+            *) echo "::error title=Semgrep::Semgrep could not analyse the repository (code $rc)"; exit "$rc" ;;
+          esac
